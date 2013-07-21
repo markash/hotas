@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+<svg xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:cc="http://creativecommons.org/ns#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:svg="http://www.w3.org/2000/svg" xmlns="http://www.w3.org/2000/svg" xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd" xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape" width="69.561165" height="106.3097" id="svg2963" sodipodi:version="0.32" inkscape:version="0.46" version="1.0" sodipodi:docname="pimientoverde.svg" inkscape:output_extension="org.inkscape.output.svg.inkscape">
+  <defs id="defs2965">
+    <linearGradient id="linearGradient3863">
+      <stop id="stop3865" offset="0" style="stop-color:#4e9a06;stop-opacity:1;"/>
+      <stop id="stop3867" offset="1" style="stop-color:#a29a06;stop-opacity:0.41984733"/>
+    </linearGradient>
+    <inkscape:perspective sodipodi:type="inkscape:persp3d" inkscape:vp_x="0 : 526.18109 : 1" inkscape:vp_y="0 : 1000 : 0" inkscape:vp_z="744.09448 : 526.18109 : 1" inkscape:persp3d-origin="372.04724 : 350.78739 : 1" id="perspective2971"/>
+  </defs>
+  <sodipodi:namedview id="base" pagecolor="#ffffff" bordercolor="#666666" borderopacity="1.0" inkscape:pageopacity="0.0" inkscape:pageshadow="2" inkscape:zoom="1.0322785" inkscape:cx="60" inkscape:cy="177.14286" inkscape:document-units="px" inkscape:current-layer="layer1" showgrid="false" inkscape:window-width="640" inkscape:window-height="635" inkscape:window-x="378" inkscape:window-y="57" inkscape:object-paths="false"/>
+  <g inkscape:label="Capa 1" inkscape:groupmode="layer" id="layer1" transform="translate(-67.702093,-329.76899)">
+    <g id="g7347" transform="matrix(0.3231941,-0.1032507,-0.1032507,-0.3231941,241.98056,56.618946)">
+      <g transform="matrix(3.071774,-0.1379654,0.1379654,3.071774,-1097.409,-1690.9164)" id="g4968">
+        <path sodipodi:nodetypes="ccccccccccccccccc" id="path4970" d="M 123.62778,259.33089 C 126.85512,256.0234 135.79875,258.06888 139.48842,260.72928 C 139.94493,260.97873 141.63525,259.15061 143.94462,255.28999 C 142.87585,251.33303 132.93382,247.69597 126.67109,248.64534 C 121.22624,249.27444 120.51445,251.02033 116.3866,251.33341 C 114.92275,248.12135 99.040727,249.6316 95.334407,254.31862 C 92.513437,258.40516 92.122937,264.46019 90.402587,269.04638 C 87.235337,279.53628 85.045007,290.11494 87.267777,301.07531 C 90.802237,315.00929 101.83658,331.94713 115.45194,340.48285 C 118.90681,341.33679 117.73916,347.11888 121.85629,349.66274 C 125.09135,352.48573 130.91801,345.93443 130.8109,342.66907 C 131.971,333.51397 125.92765,325.70185 120.26037,319.11967 C 121.00198,316.67338 120.14713,314.21145 118.55024,310.10014 C 117.51979,305.3448 116.93337,296.61494 112.19019,292.52312 C 112.05255,290.23133 115.46057,286.63413 113.7069,281.79965 C 117.16466,281.13856 120.26419,277.86226 121.18792,275.98322 C 123.07633,271.73124 128.43554,263.07646 123.62778,259.33089 z" style="fill:#005f24;fill-opacity:1;fill-rule:evenodd;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"/>
+        <path style="fill:#137b25;fill-opacity:1;fill-rule:evenodd;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1" d="M 120.9814,259.5808 C 124.08783,256.39722 130.86813,253.79543 134.41956,256.35615 C 136.56462,258.2806 139.68657,259.19449 139.78315,259.01964 C 140.21244,258.24244 141.86349,255.86199 142.36532,255.69129 C 141.33659,251.88258 133.5953,248.9912 127.56721,249.90501 C 122.32635,250.51053 119.81297,253.10515 115.83977,253.40649 C 114.43077,250.31478 101.27674,250.85432 97.709267,255.36574 C 94.993987,259.29917 94.313407,264.21321 92.657507,268.62759 C 89.608927,278.72448 86.891237,289.51622 89.030727,300.06597 C 92.432767,313.47791 104.27255,330.39059 117.3778,338.60651 C 120.70324,339.42847 117.44636,342.55625 121.10454,346.52835 C 124.2184,349.24558 127.9985,344.46327 127.8954,341.32025 C 129.01204,332.50815 123.49982,324.684 118.04486,318.34842 C 118.75868,315.99379 117.93586,312.40524 116.3988,308.44797 C 115.40696,303.87079 114.5378,296.68684 109.97232,292.74831 C 109.53513,290.54239 114.03431,286.16583 112.34634,281.51247 C 115.67455,280.87615 118.35325,277.11318 119.24237,275.30454 C 121.06003,271.21186 125.60903,263.18604 120.9814,259.5808 z" id="path4972" sodipodi:nodetypes="ccsccccccccccccccc"/>
+        <path style="fill:#00672a;fill-opacity:1;fill-rule:evenodd;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1" d="M 107.05233,261.16365 L 99.138077,261.79679 L 91.856967,292.50408 L 92.806677,306.11659 L 101.0375,317.19655 L 110.85117,329.54278 L 122.56426,341.25587 L 122.56426,346.63756 L 123.83054,341.57244 L 113.06716,328.90964 L 102.93692,313.39771 L 96.922087,304.21717 L 96.288947,285.53954 L 98.504937,279.20814 L 102.30378,267.49505 L 107.05233,261.16365 z" id="path4974"/>
+        <path style="fill:none;fill-rule:evenodd;stroke:#799d0e;stroke-width:3.64242458;stroke-linecap:butt;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1" d="M 114.46608,263.69621 L 111.10002,263.06307 L 113.06356,269.0779 L 107.17295,271.29389 L 111.94154,274.77616 L 106.05093,275.4093 L 109.13649,281.7407 L 104.3679,283.64012 L 109.13649,287.43896 L 102.40437,289.33838 L 106.57548,298.51891 L 101.80689,298.31775 L 104.33144,299.58403 L 103.77043,301.80002 L 110.78305,304.64915 L 107.41699,310.34741 L 112.46608,310.66398 L 107.6975,316.99539 L 113.86861,314.7794 L 111.90507,319.84452 L 114.42962,322.06051 L 115.55164,326.17592 L 118.63721,325.85935 L 120.03973,330.29133 L 122.56428,331.24104" id="path4976" sodipodi:nodetypes="ccccccccccccccccccccccccc"/>
+      </g>
+    </g>
+  </g>
+  <metadata>
+    <rdf:RDF>
+      <cc:Work>
+        <dc:format>image/svg+xml</dc:format>
+        <dc:type rdf:resource="http://purl.org/dc/dcmitype/StillImage"/>
+        <cc:license rdf:resource="http://creativecommons.org/licenses/publicdomain/"/>
+        <dc:publisher>
+          <cc:Agent rdf:about="http://openclipart.org/">
+            <dc:title>Open Clip Art Library</dc:title>
+          </cc:Agent>
+        </dc:publisher>
+        <dc:title>vegetables set</dc:title>
+        <dc:date>2009-02-04T08:23:35</dc:date>
+        <dc:description>a set of vegetables.</dc:description>
+        <dc:source>http://openclipart.org/detail/21362/vegetables-set-by-mekonee_29-21362</dc:source>
+        <dc:creator>
+          <cc:Agent>
+            <dc:title>mekonee_29</dc:title>
+          </cc:Agent>
+        </dc:creator>
+        <dc:subject>
+          <rdf:Bag>
+            <rdf:li>carrot</rdf:li>
+            <rdf:li>carrot</rdf:li>
+            <rdf:li>cartoon</rdf:li>
+            <rdf:li>cartoon</rdf:li>
+            <rdf:li>clip art</rdf:li>
+            <rdf:li>clipart</rdf:li>
+            <rdf:li>color</rdf:li>
+            <rdf:li>color</rdf:li>
+            <rdf:li>food</rdf:li>
+            <rdf:li>food</rdf:li>
+            <rdf:li>image</rdf:li>
+            <rdf:li>media</rdf:li>
+            <rdf:li>nature</rdf:li>
+            <rdf:li>nature</rdf:li>
+            <rdf:li>pepper</rdf:li>
+            <rdf:li>pepper</rdf:li>
+            <rdf:li>plant</rdf:li>
+            <rdf:li>plant</rdf:li>
+            <rdf:li>png</rdf:li>
+            <rdf:li>public domain</rdf:li>
+            <rdf:li>svg</rdf:li>
+            <rdf:li>tomato</rdf:li>
+            <rdf:li>tomato</rdf:li>
+            <rdf:li>vegetable</rdf:li>
+            <rdf:li>vegetable</rdf:li>
+          </rdf:Bag>
+        </dc:subject>
+      </cc:Work>
+      <cc:License rdf:about="http://creativecommons.org/licenses/publicdomain/">
+        <cc:permits rdf:resource="http://creativecommons.org/ns#Reproduction"/>
+        <cc:permits rdf:resource="http://creativecommons.org/ns#Distribution"/>
+        <cc:permits rdf:resource="http://creativecommons.org/ns#DerivativeWorks"/>
+      </cc:License>
+    </rdf:RDF>
+  </metadata>
+</svg>
