@@ -1,0 +1,129 @@
+<ui:composition xmlns="http://www.w3.org/1999/xhtml"
+                xmlns:f="http://java.sun.com/jsf/core"
+                xmlns:cc="http://java.sun.com/jsf/composite/component"
+                xmlns:ui="http://java.sun.com/jsf/facelets"
+                xmlns:h="http://java.sun.com/jsf/html"
+                template="/templates/main.xhtml">
+    <ui:define name="head">
+        <style>
+            .width_2_perc {width: 2%;}
+            .width_10_perc {width: 10%;}
+            .width_80_perc {width: 80%;}
+            .width_90_perc {width: 90%;}
+            .width_98_perc {width: 98%;}
+            .width_100_perc {width: 100%;}
+        </style>
+    </ui:define>
+    <ui:define name="content">
+        <h:form id="watercooler_form" >
+            <div class="page-header"><h2>Water cooler <small>What others are saying...</small></h2></div>
+            <div class="well well-large">
+                <h4>Thermometer for this month</h4>
+                <div class="progress">
+                    <div class="bar bar-success" style="width: 35%;"></div>
+                    <div class="bar bar-warning" style="width: 55%;"></div>
+                    <div class="bar bar-danger" style="width: 10%;"></div>
+                </div>
+            </div>
+            <table class="table table-striped">
+                <tr>
+                    <td>
+                        <span class="label label-important">$%#! Blazing hot!</span> Cras justo odio, dapibus ac facilisis in, egestas eget quam. Donec id elit non mi porta gravida at eget metus. Nullam id dolor id nibh ultricies vehicula ut id elit.
+                        <ul class="inline">
+                            <li class="info"><small><h:commandLink value="Like" /></small></li>
+                            <li class="info"><small><h:commandLink value="Comment" /></small></li>
+                            <li class="muted"><small>Posted 5 hours ago</small></li>
+                            <li class="muted"><small><i class="icon-thumbs-up"></i> 5 others like this</small></li>
+                        </ul>
+                        <ul class="inline">
+                            <li style="width:10%"></li>
+                            <li style="width:90%">
+                                <div class="well well-large">
+                                    Cras justo odio, dapibus ac facilisis in, egestas eget quam. Donec id elit non mi porta gravida at eget metus. Nullam id dolor id nibh ultricies vehicula ut id elit.
+                                    <ul class="inline">
+                                        <li class="info"><small><h:commandLink value="Like" /></small></li>
+                                        <li class="muted"><small>Posted 5 hours ago</small></li>
+                                        <li class="muted"><small><i class="icon-thumbs-up"></i> 3 others like this</small></li>
+                                    </ul>
+                                </div>
+                                <div class="well well-large">
+                                    Cras justo odio, dapibus ac facilisis in, egestas eget quam. Donec id elit non mi porta gravida at eget metus. Nullam id dolor id nibh ultricies vehicula ut id elit.
+                                    <ul class="inline">
+                                        <li class="info"><small><h:commandLink value="Like" /></small></li>
+                                        <li class="muted"><small>Posted 5 hours ago</small></li>
+                                        <li class="muted"><small><i class="icon-thumbs-up"></i> 1 other like this</small></li>
+                                    </ul>
+                                </div>
+                            </li>
+                        </ul>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <span class="label label-info">$%#! Freezing</span> Cras justo odio, dapibus ac facilisis in, egestas eget quam. Donec id elit non mi porta gravida at eget metus. Nullam id dolor id nibh ultricies vehicula ut id elit.
+                        <ul class="inline">
+                            <li class="info"><small><h:commandLink value="Like" /></small></li>
+                            <li class="info"><small><h:commandLink value="Comment" /></small></li>
+                            <li class="muted"><small>Posted 5 hours ago</small></li>
+                            <li class="muted"><small><i class="icon-thumbs-up"></i> 10 others like this</small></li>
+                        </ul>
+                        <ul class="inline">
+                            <li style="width:10%"></li>
+                            <li style="width:90%">
+                                <div class="well well-large">
+                                    Cras justo odio, dapibus ac facilisis in, egestas eget quam. Donec id elit non mi porta gravida at eget metus. Nullam id dolor id nibh ultricies vehicula ut id elit.
+                                    <ul class="inline">
+                                        <li class="info"><small><h:commandLink value="Like" /></small></li>
+                                        <li class="muted"><small>Posted 5 hours ago</small></li>
+                                        <li class="muted"><small><i class="icon-thumbs-up"></i> 3 others like this</small></li>
+                                    </ul>
+                                </div>
+                                <div class="well well-large">
+                                    Cras justo odio, dapibus ac facilisis in, egestas eget quam. Donec id elit non mi porta gravida at eget metus. Nullam id dolor id nibh ultricies vehicula ut id elit.
+                                    <ul class="inline">
+                                        <li class="info"><small><h:commandLink value="Like" /></small></li>
+                                        <li class="muted"><small>Posted 5 hours ago</small></li>
+                                        <li class="muted"><small><i class="icon-thumbs-up"></i> 1 other people like this</small></li>
+                                    </ul>
+                                </div>
+                            </li>
+                        </ul>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <span class="label label-warning">Lekker Warm</span> Cras justo odio, dapibus ac facilisis in, egestas eget quam. Donec id elit non mi porta gravida at eget metus. Nullam id dolor id nibh ultricies vehicula ut id elit.
+                        <ul class="inline">
+                            <li class="info"><small><h:commandLink value="Like" /></small></li>
+                            <li class="info"><small><h:commandLink value="Comment" /></small></li>
+                            <li class="muted"><small>Posted 5 hours ago</small></li>
+                            <li class="muted"><small><i class="icon-thumbs-up"></i> 1 other like this</small></li>
+                        </ul>
+
+                        <ul class="inline">
+                            <li style="width:10%"></li>
+                            <li style="width:90%">
+                                <div class="well well-large">
+                                    Cras justo odio, dapibus ac facilisis in, egestas eget quam. Donec id elit non mi porta gravida at eget metus. Nullam id dolor id nibh ultricies vehicula ut id elit.
+                                    <ul class="inline">
+                                        <li class="info"><small><h:commandLink value="Like" /></small></li>
+                                        <li class="muted"><small>Posted 5 hours ago</small></li>
+                                        <li class="muted"><small><i class="icon-thumbs-up"></i> 3 others like this</small></li>
+                                    </ul>
+                                </div>
+                                <div class="well well-large">
+                                    Cras justo odio, dapibus ac facilisis in, egestas eget quam. Donec id elit non mi porta gravida at eget metus. Nullam id dolor id nibh ultricies vehicula ut id elit.
+                                    <ul class="inline">
+                                        <li class="info"><small><h:commandLink value="Like" /></small></li>
+                                        <li class="muted"><small>Posted 5 hours ago</small></li>
+                                        <li class="muted"><small><i class="icon-thumbs-up"></i> 1 other like this</small></li>
+                                    </ul>
+                                </div>
+                            </li>
+                        </ul>
+                    </td>
+                </tr>
+            </table>
+        </h:form>
+    </ui:define>
+</ui:composition>

@@ -1,0 +1,70 @@
+<ui:composition xmlns="http://www.w3.org/1999/xhtml"
+                xmlns:f="http://java.sun.com/jsf/core"
+                xmlns:cc="http://java.sun.com/jsf/composite/component"
+                xmlns:ui="http://java.sun.com/jsf/facelets"
+                xmlns:h="http://java.sun.com/jsf/html"
+                template="/templates/main.xhtml">
+    <ui:define name="head">
+        <style>
+            .width_20_perc {width: 20%;}
+            .width_80_perc {width: 80%;}
+            .width_98_perc {width: 98%;}
+            .width_100_perc {width: 100%;}
+        </style>
+    </ui:define>
+    <ui:define name="content">
+        <h:form id="thermometer_form" >
+            <div class="page-header"><h2>Thermometer <small>Your opinion matters to us, so why not rate the corporate culture with optional suggestions, insight or complaints. Or see what other are <h:commandLink action="watercooler" value="saying" />.</small></h2></div>
+            <h:panelGrid columns="2" styleClass="width_100_perc" columnClasses="width_20_perc,width_80_perc">
+                <h:graphicImage id="img_thermometer" url="#{resource['img/thermometer.png']}" style="vertical-align: text-top"/>
+                <h:panelGrid columns="1" styleClass="width_100_perc" style="vertical-align: text-top">
+                    <h:panelGroup styleClass="width_100_perc">
+                        <h:panelGrid columns="1" styleClass="width_100_perc">
+                            <h4>Blazing</h4>
+                            <h:panelGrid columns="2" styleClass="width_100_perc" columnClasses="width_80_perc,width_20_perc">
+                                <h:inputTextarea id="input_blazing" cols="1024" rows="3" styleClass="width_98_perc" />
+                                <h:commandButton id="submit_blazing" action="#{thermometer.onSubmit}" value="$%#! Blazing hot!" style="vertical-align: text-bottom" styleClass="btn btn-danger btn-large"/>
+                            </h:panelGrid>
+                        </h:panelGrid>
+                    </h:panelGroup>
+                    <h:panelGroup>
+                        <h:panelGrid columns="1" styleClass="width_100_perc">
+                            <h4>Warm</h4>
+                            <h:panelGrid columns="2" styleClass="width_100_perc" columnClasses="width_80_perc,width_20_perc">
+                                <h:inputTextarea id="input_warm" cols="1024" rows="3" styleClass="width_98_perc" />
+                                <h:commandButton id="submit_warm" action="#{thermometer.onSubmit}" value="Lekker Warm     " style="vertical-align: text-bottom" styleClass="btn btn-warning btn-large"/>
+                            </h:panelGrid>
+                        </h:panelGrid>
+                    </h:panelGroup>
+                    <h:panelGroup>
+                        <h:panelGrid columns="1" styleClass="width_100_perc">
+                            <h4>Tepid</h4>
+                            <h:panelGrid columns="2" styleClass="width_100_perc" columnClasses="width_80_perc,width_20_perc">
+                                <h:inputTextarea id="input_tepid" cols="1024" rows="3" styleClass="width_98_perc"/>
+                                <h:commandButton id="submit_tepid" action="#{thermometer.onSubmit}" value="So so Tepid    " style="vertical-align: text-bottom" styleClass="btn btn-success btn-large"/>
+                            </h:panelGrid>
+                        </h:panelGrid>
+                    </h:panelGroup>
+                    <h:panelGroup>
+                        <h:panelGrid columns="1">
+                            <h4>Cold</h4>
+                            <h:panelGrid columns="2" styleClass="width_100_perc" columnClasses="width_80_perc,width_20_perc">
+                                <h:inputTextarea id="input_cold" cols="1024" rows="3" styleClass="width_98_perc"/>
+                                <h:commandButton id="submit_cold" action="#{thermometer.onSubmit}" value="Polar bears ;-S" styleClass="btn btn-success btn-large"/>
+                            </h:panelGrid>
+                        </h:panelGrid>
+                    </h:panelGroup>
+                    <h:panelGroup>
+                        <h:panelGrid columns="1">
+                            <h4 id="heading_freeing">Freezing</h4>
+                            <h:panelGrid columns="2" styleClass="width_100_perc" columnClasses="width_80_perc,width_20_perc">
+                                <h:inputTextarea id="input_freezing" cols="1024" rows="3" styleClass="width_98_perc" />
+                                <h:commandButton id="submit_freezing" action="#{thermometer.onSubmit}" value="$%#! Freezing!" styleClass="btn btn-info btn-large"/>
+                            </h:panelGrid>
+                        </h:panelGrid>
+                    </h:panelGroup>
+                </h:panelGrid>
+            </h:panelGrid>
+        </h:form>
+    </ui:define>
+</ui:composition>

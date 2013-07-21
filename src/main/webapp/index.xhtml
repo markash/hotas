@@ -1,0 +1,47 @@
+<ui:composition xmlns="http://www.w3.org/1999/xhtml"
+                xmlns:f="http://java.sun.com/jsf/core"
+                xmlns:cc="http://java.sun.com/jsf/composite/component"
+                xmlns:ui="http://java.sun.com/jsf/facelets"
+                xmlns:h="http://java.sun.com/jsf/html"
+                template="/templates/main.xhtml">
+    <ui:define name="content">
+        <h:form id="index_form">
+            <div class="hero-unit">
+                <h1>Hot As...</h1>
+                <p>Is your corporate culture hot, sizzling, blazing hot or merely mediocre or worse freezing cold? How do you find out what your employees are thinking or feeling
+                concerning their working environment? And most importantly how do you track your progress once you start to implement changes?</p>
+                <p>Well, Hot As... tracks the anonymous opinions of your employees and then coalates the information for supervisors and managers.</p>
+            </div>
+            <ul class="thumbnails" id="index_thumbnails">
+                <li class="span4">
+                    <div class="thumbnail" id="index_idea_thumbnail">
+                        <h:graphicImage id="img_idea" url="#{resource['img/doodle_speaking.png']}" style="vertical-align: text-top; height: 180px"/>
+                        <h3>Got an idea</h3>
+                        <p>Got a super brilliant idea or excellent news then we'd like to hear from you our greatest asset.
+                            Even if you would like to say what is good or what could be improved, that is cool also. In a matter of fact we would like to hear all your comments.</p>
+                        <p class="text-center"><h:commandButton action="thermometer" class="btn btn-large" value="Voice it..."/></p>
+                    </div>
+                </li>
+                <li class="span4">
+                    <div class="thumbnail" id="index_angry_thumbnail">
+                        <h:graphicImage id="img_angry" url="#{resource['img/doodle_exclamation.png']}" style="vertical-align: text-top; height: 180px"/>
+                        <h3>Got a complaint</h3>
+                        <p>Got a complaint or something on your chest then we'd like to hear from you our greatest asset.
+                            Even if you would like to say what is good or what could be improved, that is cool also. In a matter of fact we would like to hear all your comments.</p>
+                        <p class="text-center"><h:commandButton action="thermometer" class="btn btn-large" value="Voice it..."/></p>
+                    </div>
+                </li>
+                <li class="span4">
+                    <div class="thumbnail" id="index_watercoller_thumbnail">
+                        <h:graphicImage id="img_watercooler" url="#{resource['img/doodle_conversation.png']}" style="vertical-align: text-top; height: 180px"/>
+                        <h3>Hear what others are saying</h3>
+                        <p>Comment or agree on what other are saying around the virtual water. Bring ideas to the bugbears expressed by other or build on the ideas and positive
+                        feed back. Converse with your peers to improve the working environment for the benefit of all.
+                        </p>
+                        <p class="text-center"><h:commandButton action="watercooler" class="btn btn-large" value="Read it..." /></p>
+                    </div>
+                </li>
+            </ul>
+        </h:form>
+    </ui:define>
+</ui:composition>
