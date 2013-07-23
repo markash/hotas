@@ -5,6 +5,34 @@
         <param-name>za.co.yellowfire.carat.web.NAME</param-name>
         <param-value>Hot As ...</param-value>
     </context-param>
+    <context-param>
+        <param-name>za.co.yellowfire.carat.web.ISSUES_URL</param-name>
+        <param-value>https://github.com/markash/hotas/issues?state=open</param-value>
+    </context-param>
+    <context-param>
+        <param-name>za.co.yellowfire.carat.web.CHANGELOG_URL</param-name>
+        <param-value>https://github.com/markash/hotas/blob/master/CHANGELOG.md</param-value>
+    </context-param>
+    <context-param>
+        <param-name>za.co.yellowfire.carat.web.DEVELOPER_URL</param-name>
+        <param-value>http://github.com/markash</param-value>
+    </context-param>
+    <context-param>
+        <param-name>za.co.yellowfire.carat.web.DEVELOPER_NAME</param-name>
+        <param-value>mpashworth</param-value>
+    </context-param>
+    <context-param>
+        <param-name>za.co.yellowfire.carat.web.BLOG</param-name>
+        <param-value>http://mpashworth.wordpress.com</param-value>
+    </context-param>
+    <context-param>
+        <param-name>za.co.yellowfire.carat.web.LICENSE_URL</param-name>
+        <param-value>http://www.apache.org/licenses/LICENSE-2.0</param-value>
+    </context-param>
+    <context-param>
+        <param-name>za.co.yellowfire.carat.web.LICENSE_NAME</param-name>
+        <param-value>Apache License v2.0</param-value>
+    </context-param>
 
     <listener>
         <listener-class>org.jboss.weld.environment.servlet.BeanManagerResourceBindingListener</listener-class>
